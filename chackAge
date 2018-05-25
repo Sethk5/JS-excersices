@@ -1,0 +1,17 @@
+function checkAge(name, age) {
+  // your code here
+  refusal = "Go home, "+name+"!"
+  accept = "Welcome, "+name+"!"
+  if (age<21){
+    return refusal
+  }
+  if (age>21){
+    return accept
+  }
+  if (age==21){
+    return accept
+  }
+}
+
+var output = checkAge('Adrian', 22);
+console.log(output); // --> 'Welcome, Adrian!'
