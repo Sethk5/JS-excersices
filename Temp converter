@@ -1,0 +1,16 @@
+function cToF(celsius) {
+  // this is celsius to Fahrenheit
+  var a = celsius;
+  var b = (a*1.8)+32;
+  console.log(a+'\xb0C'+' is '+b+'\xb0F')
+}
+
+function fToC(fahrenheit) {
+  // this is Fahrenheit to Celsius
+  var c = fahrenheit;
+  var d = (5/9) * (c-32);
+  console.log(c + '\xb0F' + ' is '+d+'\xb0C')
+}
+
+cToF(60);
+fToC(45);
