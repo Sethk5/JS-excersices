@@ -1,0 +1,16 @@
+function isEvenAndGreaterThanTen(num) {
+  // your code here
+  if (num==10){
+    return true
+  }
+  if (num>10 && !(num%3 == 1||num%5==1||num%7==1||num%9==1)){
+    return true
+  }
+
+  else{
+    return false
+  }
+}
+
+var output = isEvenAndGreaterThanTen(13);
+console.log(output); // --> false
